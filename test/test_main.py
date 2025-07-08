@@ -1,5 +1,5 @@
 import os
-from main import load_config, process_inputs
+from src.main import load_config, process_inputs
 
 def test_load_config():
     config = load_config("config.yaml")

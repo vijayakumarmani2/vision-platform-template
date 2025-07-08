@@ -26,7 +26,7 @@ jobs:
         pip install pytest
 
     - name: Run Pytest
-      run: pytest test/
+      run: PYTHONPATH=src pytest test/
 
     - name: Build Docker image (if tests pass)
       if: success()
