@@ -21,12 +21,12 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Run Pytest and Save Results
+      - name: Run Pytest and Generate XML Report
         run: |
           mkdir -p test-results
           PYTHONPATH=. pytest test/ --junitxml=test-results/results.xml
 
-      - name: Upload Test Results
+      - name: Upload Pytest Results
         uses: actions/upload-artifact@v4
         with:
           name: pytest-results
