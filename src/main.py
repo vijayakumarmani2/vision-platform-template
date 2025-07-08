@@ -1,6 +1,6 @@
 import yaml
 import os
-from utils.custom_log import log_event
+from src.utils.custom_log import log_event  
 from datetime import datetime
 
 def load_config(path="config.yaml"):
