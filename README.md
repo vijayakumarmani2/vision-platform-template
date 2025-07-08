@@ -1,0 +1,1 @@
+# Project Template\n\nThis is a standard platform project. It uses:\n- config.yaml for configuration\n- Dockerfile for building\n- pytest for testing\n- custom_log.py for logging\n\nRun:\n```bash\npython main.py\n```\n\nTest:\n```bash\npytest test/\n```\n\nBuild Docker:\n```bash\ndocker build -t platform-demo .\n```

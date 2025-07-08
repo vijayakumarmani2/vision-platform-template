@@ -1,0 +1,41 @@
+# Technology Readiness Level (TRL) Checklist
+# Fill this checklist to evaluate the current maturity level of the project
+
+trl_level: 5  # Current TRL Level (1-9)
+
+checklist:
+  - level: 1
+    description: Basic principles observed and reported
+    status: true
+
+  - level: 2
+    description: Technology concept and/or application formulated
+    status: true
+
+  - level: 3
+    description: Experimental proof of concept built and tested in isolation
+    status: true
+
+  - level: 4
+    description: Validation of components in lab environment
+    status: true
+
+  - level: 5
+    description: Validation of system in simulated environment
+    status: true
+
+  - level: 6
+    description: Prototype demonstrated in development Kubernetes cluster
+    status: false
+
+  - level: 7
+    description: System prototype tested with live data and operational constraints
+    status: false
+
+  - level: 8
+    description: System deployed in production, meeting all operational requirements
+    status: false
+
+  - level: 9
+    description: System proven through successful operations in production
+    status: false

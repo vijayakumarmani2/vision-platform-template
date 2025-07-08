@@ -1,0 +1,4 @@
+input_path: "./input"
+output_path: "./output"
+models_path: "./models"
+log_path: "./logs/project.log"
